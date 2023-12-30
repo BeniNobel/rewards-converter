@@ -8,7 +8,7 @@ public class RewardValue {
         this.cashValue = cashValue;
         this.milesValue = (int) (cashValue / 0.0035);
     }
-
+    //
     // Constructor accepting a miles value
     public RewardValue(int milesValue) {
         this.milesValue = milesValue;
